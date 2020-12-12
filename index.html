@@ -12,65 +12,31 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav>
-      <div>
-        <a href="#">Hello</a>
-        <div>
-          <a aria-current="page" href="#">Home</a>
-          <a href="#">Features</a>
-          <a href="#">Pricing</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Hello</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </div>
         </div>
       </div>
     </nav>
 
     <!-- A box with utility classes -->
-    <div>
-      <h1>Hello, world!</h1>
-      <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr>
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a href="#" role="button">Learn more</a>
+    <div class="p-3 m-5 bg-light">
+      <button class="btn">Button</button>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-danger">Danger</button>
+      <button class="btn btn-outline-warning">Outline Warning</button>
+      <button class="btn btn-info btn-lg">Info Large</button>
     </div>
 
-    <!-- A grid with 3 columns -->
-    <div>
-      <div>
-        <div>
-          <div>
-          <img src="http://placekitten.com/700/340" alt="...">
-          <div>
-            <h5>Card title</h5>
-            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#">Go somewhere</a>
-          </div>
-        </div>
-        </div>
-        <div>
-          <div>
-          <img src="http://placekitten.com/700/340" alt="...">
-          <div>
-            <h5>Card title</h5>
-            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#">Go somewhere</a>
-          </div>
-        </div>
-        </div>
-        <div>
-          <div>
-          <img src="http://placekitten.com/700/340" alt="...">
-          <div>
-            <h5>Card title</h5>
-            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#">Go somewhere</a>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- A footer with utility classes -->
-    <footer>
-      <p>Made with 💖 by {your name here}</p>
-    </footer>
   </body>
 </html>
